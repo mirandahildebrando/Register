@@ -8,8 +8,8 @@ public class LoginSystem {
 	      Scanner scanner = new Scanner(System.in);
 	      
 	      
-	      String username = "admin";
-	      String password = "password";
+	      String username = scanner.nextLine();
+	      String password = scanner.nextLine();
 
 	      System.out.print("Enter username: ");
 	      String inputUsername = scanner.nextLine();
